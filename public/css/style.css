@@ -96,6 +96,11 @@ nav a {
 
 @media (max-width: 850px) {
     
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
     .container {
         flex-direction: column;
     }
@@ -125,10 +130,12 @@ nav a {
     .phone-area .phone1 {
         top: 0;
         margin: 0 5px;
+        height: 550px;
     }
 
     .phone-area .phone2 {
         margin-left: 0;
         margin: 0 5px;
+        height: 550px;
     }
 }
