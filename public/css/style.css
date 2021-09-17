@@ -3,6 +3,8 @@ body {
     background-size: cover;
     background-position: top center ;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
 }
 
 .main {
@@ -14,7 +16,20 @@ body {
 header {
     display: flex;
     align-items: center;
+    margin:  40px 0;
 
+}
+
+header .menu-icon {
+    display: none;
+}
+
+header .ham {
+    width: 40px;
+    height: 6px;
+    background-color: #FFF;
+    border-radius:  3px;
+    margin-bottom: 4px;
 }
 
 header .logo {
@@ -24,11 +39,15 @@ header .logo {
 header .logo img {
     width: 100%;
 }
+nav {
+    flex: 1;
+}
 
 nav ul {
     list-style: none;
     margin: 0;
     display: flex;
+    justify-content: flex-end;
 }
 
 nav li{
@@ -39,4 +58,55 @@ nav li{
 nav a {
     text-decoration: none;
     color: white
+}
+
+.container{
+    display: flex;
+}
+
+.content-area{
+    flex: 1;
+}
+
+.content-area h1 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.content-area .cta {
+    display: flex;
+    margin-top: 40px;
+}
+
+.cta .button {
+   width: 200px;
+   height: 50px; 
+   border-radius: 5px;
+   background-color: #29be56;
+   color: #FFF;
+   text-decoration: none;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cta .button-blue {
+    background-color:#3498db ;
+}
+
+.phone-area .phone1{
+    height: 400px;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    top: 10px;
+}
+
+.phone-area .phone2{
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin-left: -100px;
+    z-index: 1;
 }
