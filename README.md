@@ -17,6 +17,8 @@ Etapas para conclusão do exercício:
 
 - NÃO precisa fazer o menu mobile funcionar.
 
+- Link deploy https://treinamento-responsividade.netlify.app/
+
 ---
 
 ### Desktop:
